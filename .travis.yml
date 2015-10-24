@@ -1,0 +1,14 @@
+sudo: required
+services: docker
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -y realpath
+install: >
+    docker login
+    --email=$DOCKER_HUB_EMAIL
+    --username=$DOCKER_HUB_USERNAME
+    --password=$DOCKER_HUB_PASSWORD
+script:
+    - sudo ./build.sh
+    - test 5 -eq $( docker run --rm hosuaby/microperl -e 'print (2 + 3)' )
+after_success: docker push hosuaby/microperl
