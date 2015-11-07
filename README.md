@@ -2,6 +2,12 @@
 Smallest Perl build ([microperl](https://www.safaribooksonline.com/library/view/building-embedded-linux/059600222X/ch04s05.html)) in the container made from scratch.  
 Size : 1.5 Mb
 
+## Pull from Docker Hub
+Get ready image from [Docker Hub repository](https://hub.docker.com/r/hosuaby/microperl/):
+```sh
+$ docker pull hosuaby/microperl
+```
+
 ## Build locally
 To build image locally do:
 ```sh
