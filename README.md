@@ -1,4 +1,4 @@
-# docker-microperl [![Build Status](https://travis-ci.org/hosuaby/docker-microperl.svg?branch=travis)](https://travis-ci.org/hosuaby/docker-microperl)  
+# docker-microperl [![Build Status](https://travis-ci.org/hosuaby/docker-microperl.svg?branch=master)](https://travis-ci.org/hosuaby/docker-microperl)  
 Smallest Perl build ([microperl](https://www.safaribooksonline.com/library/view/building-embedded-linux/059600222X/ch04s05.html)) in the container made from scratch.  
 Size : 1.5 Mb
 
